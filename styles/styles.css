@@ -84,11 +84,6 @@ body{
 .numbers .row .con b{
     font-size: 2vw;
 }
-
-.learn-more .img img{
-    max-width: 100%;
-}
-
 .learn-more .con h2{
     font-size: 3vw;
     font-style: normal;
@@ -130,6 +125,6 @@ body{
     font-size: 1.5vw;
     padding-top: 1vw;
 }
-.rec-partners .img img{
+img{
     max-width: 100%;
 }
