@@ -25,6 +25,9 @@
     background-color: black;
     opacity: 0.5;
 }
+body{
+    min-width: 100%;
+}
 .content{
     position: absolute;
     top: 0;
@@ -113,4 +116,20 @@
 
 .courses .con .img img{
     width: 100%;
+}
+
+.rec-partners .title{
+    text-align: center;
+}
+.rec-partners .title h4{
+    font-size: 2.5vw;
+    font-weight:400;
+}
+
+.rec-partners .title p{
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+.rec-partners .img img{
+    max-width: 100%;
 }
