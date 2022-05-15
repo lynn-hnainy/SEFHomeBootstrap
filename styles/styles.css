@@ -44,7 +44,7 @@
     max-height: fit-content;
 }
 .content .row{
-    height: 50%;
+    max-height: 50%;
 }
 .bottom .col-6{
     color:white;
@@ -75,4 +75,26 @@
 
 .numbers .row .con b{
     font-size: 2vw;
+}
+
+.learn-more .img img{
+    max-width: 100%;
+}
+
+.learn-more .con h2{
+    font-size: 3vw;
+    font-style: normal;
+}
+.learn-more .conh2 strong{
+    font-style: bold;
+}
+.learn-more .con p{
+    font-size: 1.8vw;
+}
+.learn-more .con p a{
+    color: #0d0;
+    border-bottom: 1px solid #0d0;
+}
+.learn-more .con p a:hover{
+    text-decoration: none;
 }
