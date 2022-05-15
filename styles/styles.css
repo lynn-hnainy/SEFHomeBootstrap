@@ -110,3 +110,7 @@
 .courses{
     background-color: #0d0;
 }
+
+.courses .con .img img{
+    width: 100%;
+}
