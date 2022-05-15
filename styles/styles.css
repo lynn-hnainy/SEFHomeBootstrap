@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    min-width:100%;
+    position: relative;
+}
+
+.header img{
+    min-width: 100%;
+}
+.header .black-shadow{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: black;
+    opacity: 0.5;
+}
