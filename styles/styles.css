@@ -12,12 +12,16 @@
 .header img{
     min-width: 100%;
 }
+body{
+    min-width: fit-content;
+    min-height: fit-content;
+}
 .header .black-shadow{
     position: absolute;
     top: 0;
     left:0;
     height: 100%;
-    width:100%;
+    min-width:100%;
     background-color: black;
     opacity: 0.5;
 }
