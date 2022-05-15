@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -8,11 +8,14 @@
     min-width:100%;
     position: relative;
 }
-
 .header img{
     min-width: 100%;
 }
-
+.row{
+    min-width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
 .header .black-shadow{
     position: absolute;
     top: 0;
@@ -35,7 +38,9 @@
 .content .top .logo img{
     width: 90px;
 }
-
+.container{
+    min-width: 100%!important;
+}
 .nav-item a{
     color:white;
     font-size:large;
@@ -54,15 +59,15 @@
     font-weight: bolder;
     padding-bottom: 7vh;
 }
-
+.container-fluid{
+    min-width: 100%;
+}
 .bottom .col-6 p{
     font-size: 2vw;
 }
-
 .row{
-    width:100%;
+    min-width: 100%;
 }
-
 .numbers .row .con{
     text-align: center;
 }
@@ -97,4 +102,11 @@
 }
 .learn-more .con p a:hover{
     text-decoration: none;
+}
+.container{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.courses{
+    background-color: #0d0;
 }
