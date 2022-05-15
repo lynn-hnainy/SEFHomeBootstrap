@@ -21,3 +21,16 @@
     background-color: black;
     opacity: 0.5;
 }
+.content{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width:100%;
+}
+.content .navbar{
+    width: 100%;
+}
+.content .top .navbar-brand img{
+    width: 90px;
+}
