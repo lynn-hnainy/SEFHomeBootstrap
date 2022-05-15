@@ -63,6 +63,16 @@
     width:100%;
 }
 
-.numbers .row .col-md-4{
+.numbers .row .con{
     text-align: center;
+}
+
+.numbers .row .con h1{
+    font-size:4vw;
+    font-weight: bolder;
+    color: #0d0;
+}
+
+.numbers .row .con b{
+    font-size: 2vw;
 }
